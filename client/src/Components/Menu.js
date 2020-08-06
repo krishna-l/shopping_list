@@ -10,7 +10,7 @@ import {
     Container
 } from 'reactstrap';
 
-class Menu extends Component {
+export default class Menu extends Component {
     state = {
         isOpen: false
     }
@@ -41,5 +41,3 @@ class Menu extends Component {
         )
     }
 }
-
-export default Menu;  
