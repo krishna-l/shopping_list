@@ -15,3 +15,18 @@
   opacity: 0.01;
   transition: opacity 1000ms ease-out;
 }
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  bottom: 50%;
+  text-align: center;
+}
+
+.spin {
+  margin: 0px;
+  background-color: #ffffff;
+  opacity: 0.6;
+}
